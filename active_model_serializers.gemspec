@@ -21,17 +21,16 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = '>= 2.1'
 
-  rails_versions = ['>= 4.1', '< 6']
-  spec.add_runtime_dependency 'activemodel', rails_versions
+  spec.add_runtime_dependency 'activemodel'
   # 'activesupport', rails_versions
   # 'builder'
 
-  spec.add_runtime_dependency 'actionpack', rails_versions
+  spec.add_runtime_dependency 'actionpack'
   # 'activesupport', rails_versions
   # 'rack'
   # 'rack-test', '~> 0.6.2'
 
-  spec.add_development_dependency 'railties', rails_versions
+  spec.add_development_dependency 'railties'
   # 'activesupport', rails_versions
   # 'actionpack', rails_versions
   # 'rake', '>= 0.8.7'
@@ -45,7 +44,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'jsonapi-renderer', ['>= 0.1.1.beta1', '< 0.3']
   spec.add_runtime_dependency 'case_transform', '>= 0.2'
 
-  spec.add_development_dependency 'activerecord', rails_versions
+  spec.add_development_dependency 'activerecord'
   # arel
   # activesupport
   # activemodel
